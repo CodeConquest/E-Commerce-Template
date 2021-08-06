@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+    background:  transparent;
+    height: 10vh;
+    width: 100%;
+}
+
+
+.navbar-brand{
+    font-size: 2rem;
+    font-weight:bold;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    text-shadow: 3px 2px 2px grey;
+
+}
+.navbar-brand:hover{
+    background: rgb(221, 209, 209);
+    color: white;
+}
+.navbar .nav-link{
+    font-size:1rem;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2px 2px 3px grey;
+    position: relative;
+
+
+}
+.navbar .nav-link:hover{
+    background: black;
+    color: white;
+}
+.search{
+    border-radius: 60px;
+    border:4px solid black;
+    height: 40px;
+    width: -80%;
+}
+.btn0{
+    border-radius: 60px;
+    border:4px solid black;
+    width: 20%;
+    color:black;
+}   
+.btn0:hover{
+    background: black;
+    color: white;
+    border:4px solid black;
+}
+.Main{
+    background:url('Code.gif');
+    background-position: 50% 50%;
+    background-size: cover;
+    height:100vh;
+    width: 100%;
+}
+.Main h1{
+    color: black;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+   line-height: 40vh;
+}
+.btn1{
+    border-radius: 60px;
+    height:50px;
+    width:60%;
+    color:black;
+    border:3px solid black;
+    font-family: 'Poppins', sans-serif;
+}
+.btn1:hover{
+    background: black;
+    color:white;
+}
+.web{
+    font-size:2rem;
+    color:black;
+    font-family: 'Poppins', sans-serif;
+}
+.btn3{
+    border-radius: 60px;
+    height:50px;
+    width:30%;
+    color:black;
+    border:3px solid black;
+    font-family: 'Poppins', sans-serif;
+}
+.btn3:hover{
+    background: black;
+    color: white;
+}
+.main3{
+    background:url('girl.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    height:90vh;
+    width: 100%;
+}
+.main3 h1{
+    color: black;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+   line-height: 40vh;
+}
